@@ -3,7 +3,7 @@ import time
 from cryptography.fernet import Fernet
 files = []
 for file in os.listdir():
-    if file == "main.py" or file == "thekey.key" or file == "Graphiques.py" or file == "decrypt.py":
+    if file == "main.py" or file == "thekey.key" or file == "decrypt.py":
         continue
 
     if os.path.isfile(file):
